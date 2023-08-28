@@ -25,7 +25,7 @@ namespace EmployeePortal.Controllers
             {
                 _applicationDbContext.Add(emp);
                 _applicationDbContext.SaveChanges();
-
+                // Test feature branch
                 return RedirectToAction("GetEmployee", "Home");
             }
              return View(emp);
