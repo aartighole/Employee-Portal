@@ -10,6 +10,7 @@ namespace EmployeePortal.Controllers
         public EmployeeController(ApplicationDbContext applicationDbContext)
         {
             _applicationDbContext = applicationDbContext;
+
         }
         public IActionResult CreateEmployee()
         {
